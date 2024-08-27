@@ -32,12 +32,14 @@ A full-stack task management application built with the MERN stack (MongoDB, Exp
 ```bash
 backend
 git clone https://github.com/sunny8851/task-manager-backend.git
+npm install
 node server.js
 The backend will be running on http://localhost:5000.
 
 
 frontend
-git clone https://github.com/sunny8851/task-manager-backend.git
+git clone https://github.com/sunny8851/task-manager-app.git
+npm install
 npm run dev
 The frontend will be running on http://localhost:3000.
 
