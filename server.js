@@ -12,7 +12,7 @@ app.use(express.json());
 const router = express.Router();
 app.use("/api/tasks", taskRoutes);
 app.use("/api/user", authRoutes);
-app.get("*", (res, req) => {
+app.get("*", (req, res) => {
   req.status(404).send("error");
 });
 app.listen(5000, async () => {
